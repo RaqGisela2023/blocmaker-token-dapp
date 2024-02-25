@@ -1,10 +1,9 @@
-import Applayout from '<div className="components/ui/layouts"
-
+import{Applayout}from './components/ui/layouts'
+import{Home}from './pages'
 function App() {
 return (
 <Applayout/>
-
-<h1 className= "text-3xl font-bold underline">Hello world!</h1>
+<Home/>
 <Applayout/>
 )       
 }
